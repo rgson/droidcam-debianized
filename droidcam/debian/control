@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/rgson/droidcam-debianized -b debian
 Vcs-Browser: https://github.com/rgson/droidcam-debianized/tree/debian
 
 Package: droidcam
-Architecture: i386 amd64
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Use your Android as a wireless webcam or an IP Cam
  DroidCam turns your Android device into a wireless webcam,
