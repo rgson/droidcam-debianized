@@ -1,2 +1,4 @@
 droidcam usr/bin
 droidcam-cli usr/bin
+debian/conf/modprobe.d lib
+debian/conf/modules-load.d usr/lib
