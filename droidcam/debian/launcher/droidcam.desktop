@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=DroidCam
+Comment=Use your Android as a wireless webcam or an IP Cam
+Icon=droidcam
+Exec=/usr/bin/droidcam
+Terminal=false
+Categories=Video;GTK

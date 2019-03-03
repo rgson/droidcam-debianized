@@ -2,3 +2,5 @@ droidcam usr/bin
 droidcam-cli usr/bin
 debian/conf/modprobe.d lib
 debian/conf/modules-load.d usr/lib
+debian/launcher/droidcam.desktop usr/share/applications
+debian/launcher/droidcam.svg usr/share/icons/hicolor/scalable/apps
