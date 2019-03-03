@@ -1,5 +1,5 @@
 Source: droidcam
-Section: unknown
+Section: video
 Priority: optional
 Maintainer: Robin Gustafsson <robin@rgson.se>
 Build-Depends: debhelper (>= 10), dkms
