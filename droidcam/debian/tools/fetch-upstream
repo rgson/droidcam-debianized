@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+DEB_SOURCE=$(dpkg-parsechangelog -SSource)
+DEB_VERSION=$(dpkg-parsechangelog -SVersion)
+DEB_VERSION_UPSTREAM=$(
+	echo "$DEB_VERSION" | sed -e 's/-[^-]*$//' -e 's/^[0-9]*://')
+
+tar="../${DEB_SOURCE}_${DEB_VERSION_UPSTREAM}.orig.tar.bz2"
+
+wget -O "$tar" 'https://www.dev47apps.com/files/600/droidcam-64bit.tar.bz2'
+tar xjf "$tar" --strip 1
