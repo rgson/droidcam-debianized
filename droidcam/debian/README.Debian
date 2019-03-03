@@ -1,0 +1,9 @@
+DroidCam for Debian
+------------------
+
+This package is a strange mix of source code (the v4l2loopback fork) and
+pre-built proprietary binaries. It is not, and cannot be, DFSG-compatible
+unless the DroidCam binaries are made open-source. This package was created
+merely for personal convenience.
+
+ -- Robin Gustafsson <robin@rgson.se>  Sun, 03 Mar 2019 12:38:00 +0100

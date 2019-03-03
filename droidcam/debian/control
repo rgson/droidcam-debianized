@@ -1,0 +1,28 @@
+Source: droidcam
+Section: unknown
+Priority: optional
+Maintainer: Robin Gustafsson <robin@rgson.se>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://www.dev47apps.com/droidcam/
+Vcs-Git: https://github.com/rgson/droidcam-debianized -b debian
+Vcs-Browser: https://github.com/rgson/droidcam-debianized/tree/debian
+
+Package: droidcam
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Use your Android as a wireless webcam or an IP Cam
+ DroidCam turns your Android device into a wireless webcam,
+ letting you chat on Skype, Google+, and other programs.
+ It also works with OBS/XSplit/etc for streaming to Twitch or YouTube.
+ You can also use DroidCam as an IP webcam (or Surveillance Camera) via a
+ Internet browser virtually on all networks. Use it as a simple pet cam,
+ spy cam, or a security camera.
+ .
+ With 2 million downloads, DroidCam is THE webcam app for Android!
+ .
+ Features:
+ - Chat using “DroidCam Webcam” on your computer, including Sound and Picture.
+ - Connect over WiFi or USB cable.
+ - Use other apps with DroidCam in background.
+ - Surveillance/IP webcam MJPEG access
